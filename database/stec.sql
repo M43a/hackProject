@@ -31,7 +31,7 @@ USE `stec`;
 CREATE TABLE IF NOT EXISTS `user` (
 `id` int(11) NOT NULL COMMENT 'just PK',
   `name` varchar(100) DEFAULT NULL COMMENT 'user''s name',
-  `surename` varchar(100) DEFAULT NULL COMMENT 'user''s surename',
+  `surname` varchar(100) DEFAULT NULL COMMENT 'user''s surname',
   `email` varchar(100) NOT NULL,
   `about` varchar(3000) DEFAULT NULL COMMENT 'some info that user can write about him'
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
